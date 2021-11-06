@@ -18,9 +18,9 @@ PORT (
     A               :   IN STD_LOGIC_VECTOR(3 DOWNTO 0);    
     MEM_TO_MBR      :   IN STD_LOGIC_VECTOR(15 DOWNTO 0);
     DATA_OK         :   IN STD_LOGIC;
-	A_MUX	        :   IN STD_LOGIC_VECTOR(1 DOWNTO 0);
-	B_MUX		    :   IN STD_LOGIC_VECTOR(1 DOWNTO 0);
-	C_MUX		    :   IN STD_LOGIC_VECTOR(1 DOWNTO 0);
+	MUX_A	        :   IN STD_LOGIC_VECTOR(1 DOWNTO 0);
+	MUX_B		    :   IN STD_LOGIC_VECTOR(1 DOWNTO 0);
+	MUX_C		    :   IN STD_LOGIC_VECTOR(1 DOWNTO 0);
     MBR_TO_MEM      :   OUT STD_LOGIC_VECTOR(15 DOWNTO 0);
     MAR_OUTPUT      :   OUT STD_LOGIC_VECTOR(11 DOWNTO 0);
     RD_OUTPUT       :   OUT STD_LOGIC;
@@ -58,13 +58,13 @@ END COMPONENT;
 COMPONENT MIC_amux_alu
 	PORT (
 	amux        : IN std_logic;
-	alu         : IN std_logic_vector(3 downto 0);
+	alu         : IN std_logic_vector(1 downto 0);
 	A_Input     : IN std_logic_vector(15 DOWNTO 0);
 	B_Input     : IN std_logic_vector(15 DOWNTO 0);
 	MBR_Input   : IN std_logic_vector(15 DOWNTO 0);
 	N           : OUT std_logic;
 	Z           : OUT std_logic;
-	ALU_Output  : INOUT std_logic_vector(15 DOWNTO 0));
+	ULA_Output  : INOUT std_logic_vector(15 DOWNTO 0));
 END COMPONENT;
 BEGIN
 
@@ -81,9 +81,9 @@ Registers: MIC_Banck_Registers
     A_Address => A,
     B_Address => B,
     C_Address => C,
-    MUX_A    => A_MUX,
-    MUX_B     => B_MUX,
-    MUX_C     => C_MUX,
+    A_MUX     => MUX_A,
+    B_MUX     => MUX_B,
+    C_MUX     => MUX_C,
     C_Input   => C_BUS,
     A_Output  => A_BUS,
     B_Output  => B_BUS

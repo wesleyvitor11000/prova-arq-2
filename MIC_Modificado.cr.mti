@@ -1,0 +1,75 @@
+/home/melao/Documentos/Codes/MIC1_Modificado/MIC_amux_alu.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/melao/Documentos/Codes/MIC1_Modificado/MIC_amux_alu.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity MIC_amux_alu
+-- Compiling architecture behavioral of MIC_amux_alu
+
+} {} {}} /home/melao/Documentos/Codes/MIC1_Modificado/MIC_Project_Testbench.vhd {0 {vcom -work work -2002 -explicit -stats=none /home/melao/Documentos/Codes/MIC1_Modificado/MIC_Project_Testbench.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity MIC_Project_Testbench
+-- Compiling architecture Type_01 of MIC_Project_Testbench
+** Error: /home/melao/Documentos/Codes/MIC1_Modificado/MIC_Project_Testbench.vhd(81): (vcom-1136) Unknown identifier "MUX_A".
+** Error: /home/melao/Documentos/Codes/MIC1_Modificado/MIC_Project_Testbench.vhd(82): (vcom-1136) Unknown identifier "MUX_B".
+** Error: /home/melao/Documentos/Codes/MIC1_Modificado/MIC_Project_Testbench.vhd(83): (vcom-1136) Unknown identifier "MUX_C".
+** Error: /home/melao/Documentos/Codes/MIC1_Modificado/MIC_Project_Testbench.vhd(84): (vcom-1136) Unknown identifier "SH_Signal".
+** Error: /home/melao/Documentos/Codes/MIC1_Modificado/MIC_Project_Testbench.vhd(81): (vcom-1484) Unknown formal identifier "A_MUX_Signal".
+** Error: /home/melao/Documentos/Codes/MIC1_Modificado/MIC_Project_Testbench.vhd(82): (vcom-1484) Unknown formal identifier "B_MUX_Signal".
+** Error: /home/melao/Documentos/Codes/MIC1_Modificado/MIC_Project_Testbench.vhd(83): (vcom-1484) Unknown formal identifier "C_MUX_Signal".
+** Error: /home/melao/Documentos/Codes/MIC1_Modificado/MIC_Project_Testbench.vhd(84): (vcom-1484) Unknown formal identifier "SH".
+** Warning: /home/melao/Documentos/Codes/MIC1_Modificado/MIC_Project_Testbench.vhd(131): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /home/melao/Documentos/Codes/MIC1_Modificado/MIC_Project_Testbench.vhd(150): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /home/melao/Documentos/Codes/MIC1_Modificado/MIC_Project_Testbench.vhd(169): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /home/melao/Documentos/Codes/MIC1_Modificado/MIC_Project_Testbench.vhd(187): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /home/melao/Documentos/Codes/MIC1_Modificado/MIC_Project_Testbench.vhd(205): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /home/melao/Documentos/Codes/MIC1_Modificado/MIC_Project_Testbench.vhd(224): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /home/melao/Documentos/Codes/MIC1_Modificado/MIC_Project_Testbench.vhd(241): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /home/melao/Documentos/Codes/MIC1_Modificado/MIC_Project_Testbench.vhd(262): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /home/melao/Documentos/Codes/MIC1_Modificado/MIC_Project_Testbench.vhd(279): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /home/melao/Documentos/Codes/MIC1_Modificado/MIC_Project_Testbench.vhd(298): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /home/melao/Documentos/Codes/MIC1_Modificado/MIC_Project_Testbench.vhd(316): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Error: /home/melao/Documentos/Codes/MIC1_Modificado/MIC_Project_Testbench.vhd(336): (vcom-1095) EXIT or NEXT statement is not within LOOP 'L1'.
+** Warning: /home/melao/Documentos/Codes/MIC1_Modificado/MIC_Project_Testbench.vhd(337): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /home/melao/Documentos/Codes/MIC1_Modificado/MIC_Project_Testbench.vhd(354): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Error: /home/melao/Documentos/Codes/MIC1_Modificado/MIC_Project_Testbench.vhd(390): (vcom-1095) EXIT or NEXT statement is not within LOOP 'L1'.
+** Warning: /home/melao/Documentos/Codes/MIC1_Modificado/MIC_Project_Testbench.vhd(392): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /home/melao/Documentos/Codes/MIC1_Modificado/MIC_Project_Testbench.vhd(409): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Error: /home/melao/Documentos/Codes/MIC1_Modificado/MIC_Project_Testbench.vhd(446): (vcom-1095) EXIT or NEXT statement is not within LOOP 'L1'.
+** Warning: /home/melao/Documentos/Codes/MIC1_Modificado/MIC_Project_Testbench.vhd(448): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /home/melao/Documentos/Codes/MIC1_Modificado/MIC_Project_Testbench.vhd(465): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /home/melao/Documentos/Codes/MIC1_Modificado/MIC_Project_Testbench.vhd(484): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /home/melao/Documentos/Codes/MIC1_Modificado/MIC_Project_Testbench.vhd(501): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /home/melao/Documentos/Codes/MIC1_Modificado/MIC_Project_Testbench.vhd(519): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Error (suppressible): /home/melao/Documentos/Codes/MIC1_Modificado/MIC_Project_Testbench.vhd(134): (vcom-1272) Length of expected is 4; length of actual is 2.
+** Error (suppressible): /home/melao/Documentos/Codes/MIC1_Modificado/MIC_Project_Testbench.vhd(146): (vcom-1272) Length of expected is 16; length of actual is 17.
+** Note: /home/melao/Documentos/Codes/MIC1_Modificado/MIC_Project_Testbench.vhd(558): VHDL Compiler exiting
+
+} {10.0 18.0 29.0 30.0 32.0 33.0 35.0 36.0} {}} /home/melao/Documentos/Codes/MIC1_Modificado/MIC_Banck_Registers.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/melao/Documentos/Codes/MIC1_Modificado/MIC_Banck_Registers.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity MIC_Banck_Registers
+-- Compiling architecture behavioral of MIC_Banck_Registers
+
+} {} {}} /home/melao/Documentos/Codes/MIC1_Modificado/MIC_Project.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/melao/Documentos/Codes/MIC1_Modificado/MIC_Project.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity MIC_Project
+-- Compiling architecture comportamental of MIC_Project
+
+} {} {}}
