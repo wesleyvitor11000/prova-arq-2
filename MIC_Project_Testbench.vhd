@@ -333,7 +333,7 @@ PROCESS
 
 		L2: LOOP
 		
-			EXIT L1 WHEN N_Signal = '1';
+			EXIT L2 WHEN N_Signal = '1';
 				wait for 40ns;
 				--Colocar RA - RB em RA e MBR
 				AMUX_Signal 		<= '0';
@@ -387,7 +387,7 @@ PROCESS
 
 		L3: LOOP
 		
-		EXIT L1 WHEN N_Signal = '1';
+		EXIT L3 WHEN N_Signal = '1';
 		
 		wait for 40ns;
 		--Colocar RB - 1 em RB e MBR
@@ -443,7 +443,7 @@ PROCESS
 
 		L4: LOOP
 		
-		EXIT L1 WHEN N_Signal = '1';
+		EXIT L4 WHEN N_Signal = '1';
 		
 		wait for 40ns;
 		--Colocar RB - 1 em RB e MBR
